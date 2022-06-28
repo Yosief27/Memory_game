@@ -1,0 +1,56 @@
+.project-list{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+   grid-gap: 40px; 
+
+}
+ .project-detail{
+    background:#fff;
+    padding:16px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,0.5);
+    text-decoration: none;
+    color:inherit;
+    border-radius:10px;
+
+
+
+
+}
+.project-detail h3{
+    text-transform: capitalize;
+    font-size: 0.9em;
+    color:var(--heading-color)
+
+}
+.project-detail p{
+    font-size: 0.9em;
+    color:var(--text-color)
+
+}
+
+.project-dev{
+    margin-top: 20px;
+    padding-top:15px;
+    border-top: 2px solid rgb(217, 214, 214);
+    display:flex;
+    
+
+}
+.project-dev li{
+    margin-right: 10px;
+}
+
+.project-dev .avatar{
+    width:30px;
+    height:30px;
+    
+}
+.project-dev li{
+    margin-top:2px;
+    border-radius: 60%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+    
+  
+

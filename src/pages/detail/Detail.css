@@ -1,0 +1,43 @@
+.project-details{
+    display:grid;
+    grid-template-columns: 3fr 
+ 2fr;
+    align-items:start;
+    grid-gap: 30px;
+}
+/*project summary css*/
+.project-summary{
+    background-color: #fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.09); 
+}
+.project-title{
+    color:var(--title-color);
+    text-transform: capitalize;
+
+    
+}
+.project-des{
+    color:var(--text-color);
+    line-height: 1.8 em;
+    font-size:0.9em;
+    margin:20px 0;
+
+    
+}
+.due-date{
+    margin:10px 0;
+    color:var(--title-color);
+    font-size:0.8em;
+    
+}
+.project-summary .project-dev h3{
+    display:block;
+   
+
+}
+
+.project-summary .project-dev .avatar{
+    margin-right:10px;
+}
